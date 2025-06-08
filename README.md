@@ -275,6 +275,10 @@
 
   <header>🌸 Magical Horizon - Sunshine Days Archive 🌸</header>
 
+  <div id="banner">
+    <img src="https://tenor.com/du4MLXyJbv.gif" alt="Pixel cute gif" />
+  </div>
+
   <nav>
     <ul>
       <!-- Seasons with clickable toggles -->
@@ -450,36 +454,6 @@
     document.getElementById('profileModal').style.display = 'none';
   }
 </script>
-<style>
-  /* Replace gifs with big stars */
-  #starTopLeft, #starBottomRight {
-    position: fixed;
-    width: 150px;
-    height: 150px;
-    background: radial-gradient(circle at center, #fffacd 60%, #ffd700 100%);
-    clip-path: polygon(
-      50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 
-      50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%
-    );
-    filter: drop-shadow(0 0 6px gold);
-    z-index: 0;
-  }
 
-  #starTopLeft {
-    top: 10px;
-    left: 10px;
-  }
-
-  #starBottomRight {
-    bottom: 10px;
-    right: 10px;
-  }
-</style>
-
-<!-- Replace the previous gif img tags with these divs -->
-
-<div id="starTopLeft" aria-hidden="true"></div>
-<div id="starBottomRight" aria-hidden="true"></div>
 </body>
 </html>
-<li>
