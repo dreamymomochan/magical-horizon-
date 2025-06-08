@@ -453,3 +453,10 @@
 
 </body>
 </html>
+<li>
+  <span onclick="toggleSubmenu('s1')">
+    <img src="https://rentry.co/og6rf/raw" width="16" style="vertical-align:middle; margin-right:4px;">
+    Season 1
+  </span>
+  <!-- … -->
+</li>
